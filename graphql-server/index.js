@@ -1,14 +1,3 @@
-// import express from 'express';
-// import bodyParser from 'body-parser';
-// import cors from 'cors';
-// import { createServer } from 'http';
-
-// import { graphqlExpress, graphiqlExpress } from 'apollo-server-express';
-// import { makeExecutableSchema } from 'graphql-tools';
-// import { PubSub } from 'graphql-subscriptions';
-// import { SubscriptionServer } from 'subscriptions-transport-ws';
-// import { execute, subscribe } from 'graphql';
-
 import { ApolloServer } from 'apollo-server';
 
 import { typeDefs } from './schema';
