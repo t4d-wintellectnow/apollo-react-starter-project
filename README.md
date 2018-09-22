@@ -49,7 +49,7 @@ The server files can be modified in the "server-src" folder. The "server-dist" f
   - GraphQL Server: 3030
   - REST Server: 3040
 
-  If your system is running programs on these ports there will be a conflict when these applications are started. Either disable the other applications running on your system or change the port numbers for these applications within your "package.json" file. To change the port numbers, modify the port values specified in the "config" section of the "package.json". No changes to the JavaScript code is needed as the code reads the environment variables set by the config section.
+  If your system is running programs on these ports there will be a conflict when these applications are started. Either disable the other applications running on those ports or change the port numbers for this project's servers within your "package.json" file. To change the port numbers, modify the port values specified in the "config" section of the "package.json". No changes to the JavaScript code is needed as the code reads the environment variables set by the config section.
 
 **Question 3.** If you are running on Windows and running the above "npm" commands with Cygwin Bash then substitute the above commands with these:
 
