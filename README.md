@@ -11,29 +11,29 @@ This project is for used with the Mastering Apollo Series on WintellectNOW [http
 
 ### Instructions
 
-1. Clone/Download this repository. If downloading the zip file, then extract the zip file.
-1. Open a terminal window and change to the folder containing the "package.json" file.
-1. Run the following commands:
+**Step 1.** Clone/Download this repository. If downloading the zip file, then extract the zip file.
+**Step 2.** Open a terminal window and change to the folder containing the "package.json" file.
+**Step 3.** Run the following commands:
 
 ```bash
 npm install
 
 npm run start-rest-server
 ```
-1. Open a second terminal window and change to the folder containing the "package.json" file.
-1. Run the following command:
+**Step 4.** Open a second terminal window and change to the folder containing the "package.json" file.
+**Step 5.** Run the following command:
 
 ```bash
 npm run start-graphql-server
 ```
-1. Open a third terminal window and change to the folder containing the "package.json" file.
-1. Run the following command:
+**Step 6.** Open a third terminal window and change to the folder containing the "package.json" file.
+**Step 7.** Run the following command:
 
 ```bash
 npm run start-client
 ```
 
-1. Your system's default web browser should open and browse to the URL http://localhost:3000.
+**Step 8.** Your system's default web browser should open and browse to the URL http://localhost:3000.
 
 ### Modifying the Project
 
@@ -41,9 +41,9 @@ The server files can be modified in the "server-src" folder. The "server-dist" f
 
 ### FAQ
 
-1. If you have another version of Node.js installed on your system, then I recommend installing [NVM](https://github.com/creationix/nvm) (for Mac & Linux) or [NVM-Windows](https://github.com/coreybutler/nvm-windows). Both tools support the installation of multiple versions of Node.js and provide tools for easily switching between those versions. Using these tools, installing Node.js version 8 or later without losing your older version should be possible. This course does not provide support for these tools, the course only suggests using them if needed.
+**Question 1.** If you have another version of Node.js installed on your system, then I recommend installing [NVM](https://github.com/creationix/nvm) (for Mac & Linux) or [NVM-Windows](https://github.com/coreybutler/nvm-windows). Both tools support the installation of multiple versions of Node.js and provide tools for easily switching between those versions. Using these tools, installing Node.js version 8 or later without losing your older version should be possible. This course does not provide support for these tools, the course only suggests using them if needed.
 
-1. The default ports number for the three server applications are as follows:
+**Question 2.** The default ports number for the three server applications are as follows:
 
   - Web Server: 3000
   - GraphQL Server: 3030
@@ -51,7 +51,7 @@ The server files can be modified in the "server-src" folder. The "server-dist" f
 
   If your system is running programs on these ports there will be a conflict when these applications are started. Either disable the other applications running on your system or change the port numbers for these applications within your "package.json" file. To change the port numbers, modify the port values specified in the "config" section of the "package.json". No changes to the JavaScript code is needed as the code reads the environment variables set by the config section.
 
-1. If you are running on Windows and running the above "npm" commands with Cygwin Bash then substitute the above commands with these:
+**Question 3.** If you are running on Windows and running the above "npm" commands with Cygwin Bash then substitute the above commands with these:
 
 ```bash
 npm run start-rest-server-cygwin
