@@ -41,7 +41,7 @@ The server files can be modified in the "server-src" folder. The "server-dist" f
 
 ### FAQ
 
-**Question 1.** If you have another version of Node.js installed on your system, then I recommend installing [NVM](https://github.com/creationix/nvm) (for Mac & Linux) or [NVM-Windows](https://github.com/coreybutler/nvm-windows). Both tools support the installation of multiple versions of Node.js and provide tools for easily switching between those versions. Using these tools, installing Node.js version 8 or later without losing your older version should be possible. This course does not provide support for these tools, the course only suggests using them if needed.
+**Question 1.** If you have another version of Node.js installed on your system which does not work with this course, then please consider installing [NVM](https://github.com/creationix/nvm) (for Mac & Linux) or [NVM-Windows](https://github.com/coreybutler/nvm-windows) to enable the installation of multiple versions of Node.js. Both tools support the installation, management and switching between multiple versions of Node.js. Using these tools, installing Node.js version 8 or later without losing your older version should be possible. This course does not provide support for these tools, the course only suggests using them if needed.
 
 **Question 2.** The default ports number for the three server applications are as follows:
 
